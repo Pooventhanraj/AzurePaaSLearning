@@ -5,6 +5,16 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzBlob", "AzBlob\AzBlob.csproj", "{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blob Project", "Blob Project", "{54DE113C-ADE0-4B04-8E50-D4247EF00607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionProject", "AzureFunctionProject", "{EADAEFBD-B391-468E-BD7F-4D73BAA5D570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateDetailsFrontEnd", "CandidateDetailsFrontEnd\CandidateDetailsFrontEnd.csproj", "{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicAppProject", "LogicAppProject", "{1B3C6AB5-C764-48B6-BDF5-8DE099E1D810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateDetailsMVC", "CandidateDetailsMVC\CandidateDetailsMVC.csproj", "{E5C6B2B9-34C4-4048-BA1D-6627E4531658}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,22 @@ Global
 		{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C6B2B9-34C4-4048-BA1D-6627E4531658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C6B2B9-34C4-4048-BA1D-6627E4531658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C6B2B9-34C4-4048-BA1D-6627E4531658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C6B2B9-34C4-4048-BA1D-6627E4531658}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3} = {54DE113C-ADE0-4B04-8E50-D4247EF00607}
+		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A} = {EADAEFBD-B391-468E-BD7F-4D73BAA5D570}
+		{E5C6B2B9-34C4-4048-BA1D-6627E4531658} = {1B3C6AB5-C764-48B6-BDF5-8DE099E1D810}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565DDC4-891F-450E-A7D0-61E65B550018}
