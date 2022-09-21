@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzBlob", "AzBlob\AzBlob.csproj", "{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzBlob", "AzBlob\AzBlob.csproj", "{99EFE300-86AF-4D8D-997F-FDF25EEEE1A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blob Project", "Blob Project", "{54DE113C-ADE0-4B04-8E50-D4247EF00607}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionProject", "AzureFunctionProject", "{EADAEFBD-B391-468E-BD7F-4D73BAA5D570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateDetailsFrontEnd", "CandidateDetailsFrontEnd\CandidateDetailsFrontEnd.csproj", "{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateDetailsFrontEnd", "CandidateDetailsFrontEnd\CandidateDetailsFrontEnd.csproj", "{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicAppProject", "LogicAppProject", "{1B3C6AB5-C764-48B6-BDF5-8DE099E1D810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateDetailsMVC", "CandidateDetailsMVC\CandidateDetailsMVC.csproj", "{E5C6B2B9-34C4-4048-BA1D-6627E4531658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateDetailsMVC", "CandidateDetailsMVC\CandidateDetailsMVC.csproj", "{E5C6B2B9-34C4-4048-BA1D-6627E4531658}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzRedisCacheProject", "AzRedisCacheProject", "{3225A023-E45A-4E63-BBE6-EC8DB4DE5DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryCache", "CategoryCache\CategoryCache.csproj", "{017F8392-8A7D-4E97-B3A5-37B119AFA450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategoryCache", "CategoryCache\CategoryCache.csproj", "{017F8392-8A7D-4E97-B3A5-37B119AFA450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateDetailsFunc", "CandidateDetailsFunc\CandidateDetailsFunc.csproj", "{BE4FA37A-A4E1-4559-955D-5DEB7C211236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertCandidateEntityToSQL", "InsertCandidateEntityToSQL\InsertCandidateEntityToSQL.csproj", "{24853B24-B01E-4178-8DAC-98A53CEDAF4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,14 @@ Global
 		{017F8392-8A7D-4E97-B3A5-37B119AFA450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{017F8392-8A7D-4E97-B3A5-37B119AFA450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{017F8392-8A7D-4E97-B3A5-37B119AFA450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4FA37A-A4E1-4559-955D-5DEB7C211236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4FA37A-A4E1-4559-955D-5DEB7C211236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4FA37A-A4E1-4559-955D-5DEB7C211236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4FA37A-A4E1-4559-955D-5DEB7C211236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24853B24-B01E-4178-8DAC-98A53CEDAF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24853B24-B01E-4178-8DAC-98A53CEDAF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24853B24-B01E-4178-8DAC-98A53CEDAF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24853B24-B01E-4178-8DAC-98A53CEDAF4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +62,8 @@ Global
 		{34FADDD4-6395-4D6F-A1E9-3534CA24FE9A} = {EADAEFBD-B391-468E-BD7F-4D73BAA5D570}
 		{E5C6B2B9-34C4-4048-BA1D-6627E4531658} = {1B3C6AB5-C764-48B6-BDF5-8DE099E1D810}
 		{017F8392-8A7D-4E97-B3A5-37B119AFA450} = {3225A023-E45A-4E63-BBE6-EC8DB4DE5DF0}
+		{BE4FA37A-A4E1-4559-955D-5DEB7C211236} = {EADAEFBD-B391-468E-BD7F-4D73BAA5D570}
+		{24853B24-B01E-4178-8DAC-98A53CEDAF4D} = {EADAEFBD-B391-468E-BD7F-4D73BAA5D570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A565DDC4-891F-450E-A7D0-61E65B550018}
